@@ -1,0 +1,28 @@
+
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Dataset: do not upload
+dataset/
+FF++/
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+
+# Model weights
+models/
+*.pth
+*.pt
+
+# Secrets
+.env
+
+# IDE and system files
+.vscode/
+.DS_Store
+Thumbs.db
