@@ -1,0 +1,15 @@
+torch>=2.0
+torchvision
+timm>=0.9
+opencv-python-headless
+pillow
+numpy
+scikit-learn
+matplotlib
+tqdm
+# Face detector (install separately WITHOUT deps to avoid torch version conflicts):
+#   pip install facenet-pytorch --no-deps
+# Backend (only for api_example.py):
+fastapi
+uvicorn
+python-multipart

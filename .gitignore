@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.env
+
+# Datasets and generated data (too big, and the FaceForensics licence doesn't allow redistribution)
+FF++/
+data/
+extra/
+my_tests/
+
+# Videos: the dataset plus your own personal clips (WhatsApp, screen recordings)
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+
+# Model weights: ignore all, keep only the final v1 model
+*.pt
+*.pth
+!checkpoints/best.pt
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
