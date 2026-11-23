@@ -15,7 +15,7 @@ Results are also saved to checkpoints/video_test_results.csv
 import argparse, csv, random, time
 from pathlib import Path
 
-from detector import DeepfakeDetector
+from Backend.detector import DeepfakeDetector
 
 VIDEO_EXT = {".mp4", ".avi", ".mov", ".mkv"}
 IMG_EXT = {".jpg", ".jpeg", ".png"}

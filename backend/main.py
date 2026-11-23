@@ -19,7 +19,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from config import settings
 from schemas import HealthResponse, ModelInfo, PredictionResponse
-from detector import DeepfakeDetector
+from Backend.detector import DeepfakeDetector
 
 log = logging.getLogger("deepfake-api")
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
