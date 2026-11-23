@@ -17,8 +17,8 @@ from fastapi import FastAPI, File, HTTPException, Query, Request, UploadFile
 from fastapi.concurrency import run_in_threadpool
 from fastapi.middleware.cors import CORSMiddleware
 
-from backend.config import settings
-from backend.schemas import HealthResponse, ModelInfo, PredictionResponse
+from config import settings
+from schemas import HealthResponse, ModelInfo, PredictionResponse
 from detector import DeepfakeDetector
 
 log = logging.getLogger("deepfake-api")
